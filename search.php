@@ -175,14 +175,15 @@
 <div class="menu">
 <ul>
 <li><a href=""> Home page </a></li>
-<li><a href="http://localhost/PBIT17102%20WEBSITE/introduction.php"> itroduction </a></li>
-<li><a href="http://localhost/PBIT17102%20WEBSITE/login2.php">Login</a></li>
-<li><a href="http://localhost/PBIT17102%20WEBSITE/dangnhap.php">Register</a></li>
-<li><a href="http://localhost/PBIT17102%20WEBSITE/add_product.php">Add Product</a></li>
+<li><a href="http://localhost/Toys/index.php"> Home page </a></li>
+<li><a href="http://localhost/Toys/introduction.php"> itroduction </a></li>
+<li><a href="http://localhost/Toys/login2.php">Login</a></li>
+<li><a href="http://localhost/Toys/dangnhap.php">Register</a></li>
+<li><a href="http://localhost/Toys/add_product.php">Add Product</a></li>
 </ul>
 </div>
 <div class="banner">        
-    <img src="https://channel.mediacdn.vn/thumb_w/640/2020/8/24/photo-3-15982644702929952797.jpg" alt="Slideshow Image 1" />
+    <img src="img/1.jpg" alt="Slideshow Image 1" />
  </div>
 <div class="content">
 <!-- Nếu sử dụng layout 2 cột thì phần content chúng ta chia làm 2-->
@@ -190,18 +191,18 @@
 <p> Product </p>
 <div class="category"> 
 <ul>
-<li><a href=""> Hoodie </a> </li>
-<li><a href=""> T-Shirt </a></li>
-<li><a href=""> Jean </a></li>
+<li><a href=""> Lego </a> </li>
+<li><a href=""> Dolls </a></li>
+<li><a href=""> Puzzles</a></li>
 </ul>
 </div>
 <p> Brand </p>
 <div class="brand"> 
 <ul>
-<li><a href=""> Swe </a></li>
-<li><a href=""> Rick Owen </a></li>
-<li><a href=""> Gucci </a></li>
-<li><a href=""> Supreme</a></li>
+<li><a href=""> Lego </a></li>
+<li><a href=""> Bandai Namco </a></li>
+<li><a href=""> Barbie </a></li>
+<li><a href=""> King dom</a></li>
 </ul>
 </div>
 </div>
@@ -210,7 +211,7 @@
 <p> Search Results </p>
 <div class=" product">
 <?php
-   $connect = mysqli_connect('localhost','root','','mydb');
+   $connect = mysqli_connect('localhost','root','','toy');
                 if(!$connect){
                     echo "Kết nối thất bại";
                 }
